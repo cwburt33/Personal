@@ -5,12 +5,8 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Chris Burt | CIA</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  /* scale on different screens */
         <link rel="stylesheet" href="blog.css" >
-
-        <style>
-
-        </style>
 
     </head>
 
@@ -44,8 +40,16 @@
             <form>
 
                 <div>
-                    <img class="Pict" src="Blog_Personal_Photo_8.21.19.jpg">
+
                     <input name="name" type="text" placeholder="Name">
+                    <div class="input-group mb-3">
+
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <img class="Pict" src="Blog_Personal_Photo_8.21.19.jpg">
                     <input name="password" type="password" placeholder="Password">
                     <input name="Age" type="number" placeholder="Age">
                     <br>
@@ -256,6 +260,8 @@
                             <option value="Zimbabwe">
                             </datalist>
                     <br><br>
+
+                    <button type="button" class="btn btn-danger">Danger</button>
                     <button class="screen-only">Execute!</button>
                 </div>
             </form>

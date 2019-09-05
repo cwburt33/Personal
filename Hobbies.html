@@ -11,30 +11,44 @@
             	.Pict2 {
                             float:left;
                             /*overflow:hidden;*/
-                            margin-left:5px;
+                            margin-left:15px;
+                            margin-top:15px;
                             width="20";
                             height="50";
                             padding-right:10px
+                            padding-left:10px
                             /*display:none;*/
-                        }
-                 table {
+                       }
+                table  {
                             border: 2px solid black;
                             border-collapse: collapse;
                             width: 16%;
-                        }
+                       }
 
-                        th, td {
+                h5     {
                             border: 1px solid black;
                             padding: 5px;
                             text-align: center;
-                        }
-
-                        th {
                             background-color: lightblue;
-                        }
-                        .p1 {
+                       }
+
+                .p1 {
                             font-weight: bold;
-                        }
+                    }
+                .card {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    border: 1px solid black;
+                                    margin: 10px
+                            }
+
+                .container > div {
+                                    background-color: springgreen;
+                                    font-size: 20px;
+                                    margin: 20px;
+                                    padding: 20px;
+                                    width: 295px;
+                                }
         </style>
     </head>
 
@@ -66,34 +80,52 @@
             <li><a href="#section3">Food Section</a></li>
         </ul>
 
+        <hr size="4" width="100%" align="left" color="lightgray">
+
         <h4 id="section1"> </h4>
-             <table>
-                <tr>
-                    <th>Worship</th>
-                </tr>
-             </table>
-             <img class="Pict2" src="Faith.jpg" width="300" height="300"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <h5 id="section1">Worship</h5>
 
-        p>The Church campout 2019</p>
-         <h4 id="section2"> </h4>
+             <div class="card" style="width: 18rem;">
+                   <img src="Faith.JPG" class="Pict2" width="250" height="250" alt="...">
+                   <div class="card-body" >
+                     <h4 class="card-title">Church Campout</h4>
+                     <p class="card-text">In June 2019 the Rock Church went to PineView Reservoir to worship God and fellowship with our family.  It was a great time to get to know others better and enjoy God's creation .</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                   </div>
+             </div>
 
-             <table>
-                <tr>
-                    <th id="#section2">Hiking</th>
-                </tr>
-             </table>
-             <img class="Pict2" src="WastachHike_fallsAug19.jpg" width="300" height="300">
-             <img class="Pict2" src="Hiking_TwinPeaks2019.jpg" width="300" height="300"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-             <p>Hike at mouth of Little Cottonwood</p> <p>Twin Peaks just b4 Saddle Aug 2019</p>
+        <h4 id="section2"> </h4>
+             <h5 id="#section2">Hiking</h5>
 
-          <h4 id="section3"> </h4>
+             <div class="card" style="width: 18rem;">
+                   <img src="WastachHike_fallsAug19.JPG" class="Pict2" width="250" height="250" alt="...">
+                   <div class="card-body">
+                     <h4 class="card-title">Bells Canyon Waterfall</h4>
+                     <p class="card-text">In August 2019 went on a hike with David Clark.  We had a good hike.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                   </div>
+             </div>
 
-              <table>
-                <tr>
-                    <th id="#section3">Heat!!!!!</th>
-                </tr>
-              </table>
-              <img class="Pict2" src="/Hobbies_Heat.jpg" width="300" height="300">
+             <div class="card" style="width: 18rem;">
+                   <img src="Hiking_TwinPeaks2019.JPG" class="Pict2" width="250" height="250" alt="...">
+                   <div class="card-body">
+                     <h4 class="card-title">Bells Canyon Waterfall</h4>
+                     <p class="card-text">In August 2019 went on a hike to Twin Peaks.  Only made it 600ft from the saddle.  Plan to revisit with a hiking friend.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                   </div>
+             </div>
+
+        <h4 id="section3"> </h4>
+             <h5 id="#section3">Heat!!!!!</h5>
+
+             <div class="card" style="width: 18rem;">
+                   <img src="Hobbies_Heat.JPG" class="Pict2" width="250" height="250" alt="...">
+                   <div class="card-body">
+                     <h4 class="card-title">San Diego Heat Shop</h4>
+                     <p class="card-text">In June 2019 went to the shops in the city on the coast.  Found this shop with Heat!!!!</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                   </div>
+             </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
