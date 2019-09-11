@@ -4,20 +4,61 @@
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Chris Burt | CIA</title>
-        <link rel="stylesheet" href="hobbies.css" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <style>
+
+            	.Pict2 {
+                            float:left;
+                            /*overflow:hidden;*/
+                            margin-left:15px;
+                            margin-top:15px;
+                            width="20";
+                            height="50";
+                            padding-right:10px
+                            padding-left:10px
+                            /*display:none;*/
+                       }
+                table  {
+                            border: 2px solid black;
+                            border-collapse: collapse;
+                            width: 16%;
+                       }
+
+                h5     {
+                            border: 1px solid black;
+                            padding: 5px;
+                            text-align: center;
+                            background-color: lightblue;
+                       }
+
+                .p1 {
+                            font-weight: bold;
+                    }
+                .card {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    border: 1px solid black;
+                                    margin: 10px
+                             }
+
+
+        </style>
     </head>
 
     <body>
         <nav class="navbar navbar-dark bg-dark">
-            <li class="nav-item active">
+            <div class="nav-item active">
             <a class="navbar-brand" href="https://cwburt33.github.io/Personal/index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
+            </div>
 
+            <div>
             <a class="navbar-brand" href="https://cwburt33.github.io/Personal/Requirements.html">Requirements</a>
-            <a class="navbar-brand" href="https://cwburt33.github.io/Personal/Resume.html">Resume</a>
+            </div>
+                <a class="navbar-brand" href="https://cwburt33.github.io/Personal/Resume.html">Resume</a>
             <a class="navbar-brand" href="https://cwburt33.github.io/Personal/Blog.html">Blog</a>
 
-            <li class="nav-item dropdown">
+            <div class="nav-item dropdown">
                 <a class="navbar-brand" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hobbies</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://cwburt33.github.io/Personal/Hobbies.html">Faith</a>
@@ -37,11 +78,11 @@
 
         <hr size="4" width="100%" align="left" color="lightgray">
 
-        <h5 id="section1" class="rounded-pill">Worship</h5>
+        <h5 id="section1">Worship</h5>
 
         <div class="container">
             <div class="row mx-lg-n5">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
 
                     <div class="card" style="width: 18rem;">
                     <img src="Faith.JPG" class="Pict2" width="250" height="250" alt="...">
@@ -53,12 +94,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="card" style="width: 18rem;">
                     <img src="Nebraska_Church_12.28.19.JPG" class="Pict2" width="250" height="250" alt="...">
                         <div class="card-body" >
                          <h4 class="card-title">Nebraska Church</h4>
-                         <p class="card-text">In December 2018 went to Nebraska to visit my sister and family.  We went to church and also visited this church.</p><br><br>
+                         <p class="card-text">In December 2018 went to Nebraska to visit my sister and family.  We went to church and also visited this church.</p>
                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -67,24 +108,22 @@
         </div>
 
 
-        <h5 id="section2" class="rounded-pill">Hiking</h5>
+        <h5 id="section2">Hiking</h5>
 
         <div class="container">
             <div class="row mx-lg-n5">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="card" style="width: 18rem;">
                     <img src="WastachHike_fallsAug19.JPG" class="Pict2" width="250" height="250" alt="...">
                         <div class="card-body">
                          <h4 class="card-title">Bells Canyon Waterfall</h4>
                          <p class="card-text">In August 2019 went on a hike with David Clark.  We had a good hike.</p>
-                         <br>
-                         <br>
                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-lg-4 col-sm-6">
+                 <div class="col-lg-3 col-sm-6">
                      <div class="card" style="width: 18rem;">
                      <img src="Hiking_TwinPeaks2019.JPG" class="Pict2" width="250" height="250" alt="...">
                          <div class="card-body">
@@ -97,36 +136,12 @@
             </div>
         </div>
 
-        <h5 id="section3" class="rounded-pill">Heat!!!!!</h5>
+        <h5 id="section3">Heat!!!!!</h5>
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="card" style="width: 18rem;">
                     <img src="Hobbies_Heat.JPG" class="Pict2" width="250" height="250" alt="...">
                         <div class="card-body">
-                         <h4 class="card-title">San Diego Heat Shop</h4>
-                         <p class="card-text">In June 2019 went to the shops in the city on the coast.  Found this shop with Heat!!!!</p>
-                         <br>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-            <div class="col-lg-4 col-sm-6">
-                     <div class="card" style="width: 18rem;">
-                     </div>
-            </div>
-                </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-    </body>
-</html>
+                         <h4 class="card-title">San 
