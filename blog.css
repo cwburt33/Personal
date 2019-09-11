@@ -2,16 +2,15 @@
    @media (min-width: 700px) {
             h1::before {
                 content: "Welcome to the Training site!";
+                margin-left: 15px;
                         }
 
            .Pict::before {
 	                    float:left;
-                        /*overflow:hidden;*/
                         margin-left:5px;
                         width="5%";
                         height="10%";
                         padding-right:10px
-                		/*display:none;*/
 	                    }
             }
 
@@ -23,13 +22,15 @@
 
 	@media (min-width: 700px) {
                 body {
-                    background-color: blue;
+                    background-color:#0970b5;
+                    color: lightblue;
                 }
             }
 
     @media (max-width: 699px) {
                 body {
-                    background-color: red;
+                    background-color: #0970b5;
+                    color: lightblue;
                 }
             }
     @media print {
@@ -45,10 +46,13 @@
             width="50%";
             height="100%";
             padding-right:25px
-            /*display:none;*/
            }
+    .summary    {
+                    margin-left: 25px;
+                    margin-right: 25px;
+                }
+    }
 
-	/* Logo */
 	.title {color: #154a2b}
 
 
@@ -71,3 +75,9 @@
         color: red;
         background-color: yellow;
     }
+
+    .vids {
+                width: 600px;
+                height: 333px;
+                margin-left: 70px;
+                margin-bottom: 35px;
