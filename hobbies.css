@@ -1,63 +1,46 @@
-@media  {
-            body    {
-                        background-color: #0970b5;
-                        color: lightblue;
-                    }
+        	@media {
+                body {
+                    background-color:#0970b5;
+                    color: lightblue;
+                }
+.Pict2 {
+            float:left;
+            margin-left:15px;
+            margin-top:15px;
+            width="20";
+            height="50";
+            padding-right:10px
+            padding-left:10px
+       }
+table  {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 16%;
+       }
+h5     {
+            color: blue;
+            font-weight: bold;
+            border-radius: 1%/50%;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            background-color: lightblue;
+            margin-right: 250px;
+            margin-left: 250px;
+       }
+.p1 {
+            font-weight: bold;
+    }
+.card   {
+            background-color: lightblue;
+            color: darkblue;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            margin: 10px
         }
+.contents   {
+            color: darkblue;
+            font-weight: bold;
 
-	html {
-		overflow-y:scroll;
-	}
-	body {
-
-		font-family:Arial;
-		font-size: 15px;
-	}
-    header {
-		height:60px;
-		margin-bottom:20px;
-		overflow:hidden;
-	}
-
-    .Pict2 {
-                float:left;
-                margin-left:15px;
-                margin-top:15px;
-                width="20";
-                height="50";
-                padding-right:10px
-                padding-left:10px
-           }
-    table  {
-                border: 2px solid black;
-                border-collapse: collapse;
-                width: 16%;
-           }
-
-    h5     {
-                border: 1px solid black;
-                padding: 5px;
-                text-align: center;
-                background-color: #5499c7;
-                color: white;
-                margin-top: 10px;
-                margin-left: 50px;
-                margin-right: 50px;
-           }
-
-    .p1 {
-                font-weight: bold;
-        }
-    .card {
-                        display: flex;
-                        flex-wrap: wrap;
-                        border: 1px solid black;
-                        margin-left: 15px;
-                        background-color: lightblue;
-                        color: blue;
-                 }
-    .title  {
-                margin-left: 15px;
-            }
-
-
+          }
