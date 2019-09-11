@@ -1,44 +1,38 @@
 	html {
 		overflow-y:scroll;
 	}
-	body {
-
-		font-family:Arial;
-		font-size: 15px;
-	}
-    header {
-		height:60px;
-		margin-bottom:20px;
-		overflow:hidden;
-	}
-
-
+	body    {
+                font-family:Arial;
+                font-size: 15px;
+	        }
+    header  {
+                height:60px;
+                margin-bottom:20px;
+                overflow:hidden;
+        	}
 	.container {
-		background-color:#30302e;
-        color: lightblue;
-		width:"100%";
-		margin-bottom: 10px;
-		margin-top: 10px;
+                   background-color:#30302e;
+                   color: lightblue;
+                   width:"100%";
+                   margin-bottom: 10px;
+                   margin-top: 10px;
 	}
-
 	.title  {
 	            color: #154a2b;
 	            margin-right: 10px;
 	            margin-top: 10px;
 	            margin-left: 85px;
 	        }
-
     .Pict   {
                 float:right;
                 margin-right:10px;
             }
     .expertise {
-            float:left;
-            font-size:30px;
-            font-weight:700;
-            color; yellow;
-            margin-left=25px;
-            /*line-height:10px;*/
+                    float:left;
+                    font-size:30px;
+                    font-weight:700;
+                    color; yellow;
+                    margin-left=25px;
         }
     .expertise-title    {
                             float:center;
